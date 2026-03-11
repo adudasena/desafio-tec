@@ -22,6 +22,17 @@ Implementação do desafio técnico utilizando Java.
 
 ## Execução
 
-Executar a classe:
-
 DesafioNasajon.java
+
+## Como rodar o projeto
+O projeto foi desenvolvido em Java 17 utilizando apenas bibliotecas nativas e o Gson para manipulação de JSON.
+Pré-requisitos
+• Java JDK 11 ou superior instalado.
+• Biblioteca gson-2.10.1.jar no classpath.
+• Arquivo input.csv na raiz da pasta do projeto.
+Passo a passo para execução:
+
+javac -cp ".;gson-2.10.1.jar" DesafioNasajon.java
+
+
+
